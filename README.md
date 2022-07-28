@@ -1,5 +1,11 @@
 # floating-inductor-simulator
-PCB design (KiCAD) of a floating inductor simulator circuit. The circuit can be used to simulate inductors up to ~50H, that would otherwise be quite big in size.
+PCB design (KiCAD) of a floating inductor simulator circuit, based on the [Grueningen Synthetic Inductor Circuit](https://ieeexplore.ieee.org/document/1457733). The inductance can be changed via the trim potentiometer (RV1). The circuit with the selected components can be used to simulate inductors from 20mH to ~8H. 
+
+Formula for determining the inductance value of the circuit:
+
+        L = R2^2 * RV1 * C4 / R7,   given R2 = R3 = R4
+
+The desired value range of the inductance can be tweaked by changing the resistors/caps/pots values. 
 
 ## Schematics
 ![Alt text](./images/schematics.svg)
