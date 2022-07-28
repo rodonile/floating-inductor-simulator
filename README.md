@@ -7,6 +7,8 @@ Formula for determining the inductance value of the circuit:
 
 The desired value range of the inductance can be tweaked by changing the resistors/caps/pots values. For example, with the values on the schematic below and with a 10kOhm RV1 trim potentiometer we are able to simulate inductances ranging from 20mH to 7.7H. 
 
+The frequency operation range of the circuit spans from ~100Hz to ~10kHz. For signals near and outside this range the circuits starts being unstable.
+
 The RV2 potentiometer is a series resistor that can be used to adjust the Q-factor of the circuit but has no influence on the inductance value.
 
 ## Schematics
