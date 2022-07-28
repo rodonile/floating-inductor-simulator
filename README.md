@@ -13,4 +13,4 @@ PCB design (KiCAD) of a floating inductor simulator circuit. The circuit can be 
 ![](./images/3d_top.png)  |  ![](./images/3d_bottom.png)
 
 ## Gerbers
-Gerber files available in releases. The board is a 4-layer PCB. Designed with JSCPCB design rules.
+Gerber files available in releases. The board is a 4-layer PCB. Designed with JSCPCB design rules. Bill of material available in the [ibom.html](ibom.html) file (interactive html format, to be opened with a web browser).
