@@ -15,7 +15,7 @@ PCB design (KiCAD) of a floating inductor simulator circuit. The circuit can be 
 ## Bill of materials (BOM)
 ![Alt text](./images/bom.png)
 
-The bill of material is also available in the [ibom.html](ibom.html) file (interactive html format, to be opened with a web browser).
+The bill of material is also available in the [ibom.html](ibom.html) file (interactive html format, to be opened with a web browser). The components I used to build the circuit are available as a [csv file](components-digikey.csv) (they were ordered from Digikey).
 
 ## Gerbers
 Gerber files are available in [releases](https://github.com/rodonile/floating-inductor-simulator/releases). The board is a 4-layer PCB. Designed with JSCPCB design rules. 
