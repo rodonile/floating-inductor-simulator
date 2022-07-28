@@ -5,7 +5,9 @@ Formula for determining the inductance value of the circuit:
 
         L = R2^2 * RV1 * C4 / R7,   given R2 = R3 = R4
 
-The desired value range of the inductance can be tweaked by changing the resistors/caps/pots values. 
+The desired value range of the inductance can be tweaked by changing the resistors/caps/pots values. For example, with the values on the schematic below and with a 10kOhm RV1 trim potentiometer we are able to simulate inductances ranging from 20mH to 7.7H. 
+
+The RV2 potentiometer is a series resistor that can be used to adjust the Q-factor of the circuit but has no influence on the inductance value.
 
 ## Schematics
 ![Alt text](./images/schematics.svg)
