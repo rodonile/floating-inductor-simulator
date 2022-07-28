@@ -16,6 +16,8 @@ The RV2 potentiometer is a series resistor that can be used to adjust the Q-fact
 
 ## Layout and 3D view
 
+Kicad project files are available in the [kicad](./kicad) folder.
+
 <img src="./images/layout.png" width="400" />
 
 3D view TOP                |  3D view BOTTOM

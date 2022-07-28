@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 691411510002
+#
+DEF 691411510002 J 0 40 Y N 1 L N
+F0 "J" -196 -47 50 H V L BNN
+F1 "691411510002" -195 -119 50 H V L BNN
+F2 "691411510002" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "16 to 30 (AWG) 1.31 to 0.0509 (mm²)" 0 0 50 H I L BNN "WIRE"
+F5 "2" 0 0 50 H I L BNN "PINS"
+F6 "10A" 0 0 50 H I L BNN "IR-VDE"
+F7 "THT" 0 0 50 H I L BNN "MOUNT"
+F8 "691411510002" 0 0 50 H I L BNN "PART-NUMBER"
+F9 "691411510002" 0 0 50 H I L BNN "VALUE"
+F10 "Horizontal" 0 0 50 H I L BNN "TYPE"
+F11 "250V (AC)" 0 0 50 H I L BNN "WORKING-VOLTAGE-VDE"
+F12 "300V (AC)" 0 0 50 H I L BNN "WORKING-VOLTAGE-UL"
+F13 "5.08mm" 0 0 50 H I L BNN "PITCH"
+F14 "https://www.we-online.com/catalog/datasheet/691411510002.pdf" 0 0 50 H I L BNN "DATASHEET-URL"
+F15 "10A" 0 0 50 H I L BNN "IR-UL"
+DRAW
+P 2 0 0 10 -150 -100 50 -100 N
+P 2 0 0 10 50 -100 50 0 N
+P 2 0 0 10 50 0 -150 0 N
+P 2 0 0 10 -150 0 -150 -100 N
+P 2 0 0 10 -100 -70 -100 -100 N
+P 2 0 0 10 0 -70 0 -100 N
+C -100 -50 18 0 0 10 N
+C 0 -50 18 0 0 10 N
+X ~ 1 -100 -200 100 U 40 40 0 0 P 
+X ~ A1 -100 -200 100 U 40 40 0 0 P 
+X ~ 2 0 -200 100 U 40 40 0 0 P 
+X ~ A2 0 -200 100 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

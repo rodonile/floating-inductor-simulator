@@ -1,0 +1,61 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Analog Devices ADA4627-1ARZ-R7
+#
+DEF ADA4627-1ARZ-R7 U 0 40 Y Y 1 L N
+F0 "U" 0 100 50 H V L CNN 
+F1 "ADA4627-1ARZ-R7" 0 200 50 H V L CNN 
+F2 "Analog_Devices-ADA4627-1ARZ-R7-*" 0 300 50 H I L CNN 
+F3 "http://www.analog.com/static/imported-files/data_sheets/ADA4627-1_4637-1.pdf" 0 400 50 H I L CNN 
+F4 "1" 0 500 50 H I L CNN "Amplifiers Per Package"
+F5 "MS-012-AA" 0 600 50 H I L CNN "Code  JEDEC"
+F6 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.analog.com/en/index.html" 0 800 50 H I L CNN "Component Link 1 URL"
+F8 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F9 "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F10 "Reference Circuit" 0 1100 50 H I L CNN "Component Link 4 Description"
+F11 "http://www.analog.com/en/all-operational-amplifiers-op-amps/operational-amplifiers-op-amps/ada4627-1/products/product.html#product-recommendations" 0 1200 50 H I L CNN "Component Link 4 URL"
+F12 "Rev. D" 0 1300 50 H I L CNN "Datasheet Version"
+F13 "1pA" 0 1400 50 H I L CNN "Input Bias Current"
+F14 "70uV" 0 1500 50 H I L CNN "Input Offset Voltage"
+F15 "7mA" 0 1600 50 H I L CNN "Iq Amp"
+F16 "Surface Mount" 0 1700 50 H I L CNN "Mounting Technology"
+F17 "8-Pin Standard Small Outline Package, Body 3.9 x 4.9 mm, Pitch 1.27 mm" 0 1800 50 H I L CNN "Package Description"
+F18 "060506-A" 0 1900 50 H I L CNN "Package Version"
+F19 "40V/us" 0 2000 50 H I L CNN "Slew Rate"
+F20 "19MHz" 0 2100 50 H I L CNN "Small Signal Bandwidth"
+F21 "30V" 0 2200 50 H I L CNN "V Span Max"
+F22 "10V" 0 2300 50 H I L CNN "V Span Min"
+F23 "IC" 0 2400 50 H I L CNN "category"
+F24 "1330029" 0 2500 50 H I L CNN "ciiva ids"
+F25 "d569c757784cf5a0" 0 2600 50 H I L CNN "library id"
+F26 "Analog Devices" 0 2700 50 H I L CNN "manufacturer"
+F27 "R-8" 0 2800 50 H I L CNN "package"
+F28 "1386911669" 0 2900 50 H I L CNN "release date"
+F29 "EE89563D-BDB3-409A-BFFE-6D63092CAD3B" 0 3000 50 H I L CNN "vault revision"
+F30 "yes" 0 3100 50 H I L CNN "imported"
+DRAW
+X NULL 1 100 0 100 R 40 0 1 1 I 
+X -IN 2 100 -300 100 R 40 0 1 1 I 
+X +IN 3 100 -500 100 R 40 0 1 1 I 
+X -V 4 400 -700 100 U 40 0 1 1 W 
+X NULL 5 100 -100 100 R 40 0 1 1 I 
+X OUT 6 700 -400 100 L 40 0 1 1 O 
+X +V 7 400 -100 100 D 40 0 1 1 W 
+X NC 8 100 -700 100 R 40 0 1 1 P 
+P 2 1 1 0 200 -200 600 -400 N
+P 2 1 1 0 200 -600 600 -400 N
+P 2 1 1 0 200 -200 200 -600 N
+P 2 1 1 0 240 -300 300 -300 N
+P 2 1 1 0 240 -500 300 -500 N
+P 2 1 1 0 270 -470 270 -530 N
+P 2 1 1 0 400 -200 400 -300 N
+P 2 1 1 0 400 -500 400 -600 N
+P 2 1 1 0 260 -230 200 -100 N
+P 2 1 1 0 320 -260 200 0 N
+P 2 1 1 0 260 -570 200 -700 N
+ENDDRAW
+ENDDEF
+#
+# End Library

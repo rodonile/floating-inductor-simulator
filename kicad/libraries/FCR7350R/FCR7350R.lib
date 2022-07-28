@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# FCR7350R
+#
+DEF FCR7350R J 0 40 Y Y 1 L N
+F0 "J" 650 300 50 H V L BNN
+F1 "FCR7350R" 650 200 50 H V L BNN
+F2 "FCR7350R" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "CLIFF ELECTRONIC COMPONENTS" 0 0 50 H I L BNN "Manufacturer_Name"
+F5 "FCR7350R" 0 0 50 H I L BNN "Manufacturer_Part_Number"
+F6 "" 0 0 50 H I L BNN "Mouser_Price-Stock"
+F7 "FCR7350R" 0 0 50 H I L BNN "Arrow_Part_Number"
+F8 "CLIFF ELECTRONIC COMPONENTS - FCR7350R - SOCKET, PCB, 4MM, R/A, S16N-PC, RED" 0 0 50 H I L BNN "Description"
+F9 "" 0 0 50 H I L BNN "Mouser_Part_Number"
+F10 "mm" 0 0 50 H I L BNN "Height"
+F11 "" 0 0 50 H I L BNN "Arrow_Price-Stock"
+DRAW
+P 2 0 0 10 200 100 600 100 N
+P 2 0 0 10 600 -300 600 100 N
+P 2 0 0 10 600 -300 200 -300 N
+P 2 0 0 10 200 100 200 -300 N
+X 1 1 0 0 200 R 40 40 0 0 B 
+X 2 2 0 -100 200 R 40 40 0 0 B 
+X 3 3 0 -200 200 R 40 40 0 0 B 
+X 4 4 800 0 200 L 40 40 0 0 B 
+X 5 5 800 -100 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
