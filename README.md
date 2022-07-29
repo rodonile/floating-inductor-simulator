@@ -27,7 +27,7 @@ Kicad project files are available in the [kicad](./kicad) folder.
 ## Bill of materials (BOM)
 ![Alt text](./images/bom.png)
 
-The bill of material is also available in the [ibom.html](ibom.html) file (interactive html format, to be opened with a web browser). The components I used to build the circuit are available as a [csv file](components-digikey.csv) (they were ordered from Digikey).
+The bill of material is also available in the [ibom.html](https://raw.githubusercontent.com/rodonile/floating-inductor-simulator/main/ibom.html) file (interactive html format, to be opened with a web browser). The components I used to build the circuit are available as a [csv file](components-digikey.csv) (they were ordered from Digikey).
 
 ## Gerbers
 Gerber files are available in [releases](https://github.com/rodonile/floating-inductor-simulator/releases). The board is a 4-layer PCB. Designed with JSCPCB design rules. 
