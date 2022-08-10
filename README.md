@@ -1,11 +1,11 @@
 # floating-inductor-simulator
-PCB design (KiCAD) of a floating inductor simulator circuit, based on the [Grueningen Synthetic Inductor Circuit](https://ieeexplore.ieee.org/document/1457733). The inductance can be changed via the trim potentiometer (RV1). The circuit with the selected components can be used to simulate inductors from 20mH to ~8H. 
+PCB design (KiCAD) of a floating inductor simulator circuit, based on the [Grueningen Synthetic Inductor Circuit](https://ieeexplore.ieee.org/document/1457733). The inductance can be changed via the trim potentiometer (RV1). The circuit with the selected components can be used to simulate inductors up to 80H. 
 
 Formula for determining the inductance value of the circuit:
 
         L = R2^2 * RV1 * C4 / R7,   given R2 = R3 = R4
 
-The desired value range of the inductance can be tweaked by changing the resistors/caps/pots values. For example, with the values on the schematic below and with a 10kOhm RV1 trim potentiometer we are able to simulate inductances ranging from 20mH to 7.7H. 
+The desired value range of the inductance can be tweaked by changing the resistors/caps/pots values. For example, with the values on the schematic below and with a 10kOhm RV1 trim potentiometer we are able to simulate inductances ranging from 20mH to 7.7H. With a 100kOhm RV1 potentiometer the circuit can simulate inductances up to 80H.
 
 The frequency operation range of the circuit spans from ~100Hz to ~10kHz. For signals near and outside this range the circuits starts being unstable.
 
